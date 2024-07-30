@@ -5,6 +5,7 @@ int main()
     int n;
     printf("Enter no");
     scanf("%d",&n);
+    printf("%d",n);
 
 
     return 0;
