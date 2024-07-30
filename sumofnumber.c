@@ -2,7 +2,7 @@
 int main()
 {
     int n,sum=0,rem;
-    printf("enter a number:\n");
+    printf("enter a numbeer:\n");
     scanf("%d",&n);
     while(n>0)
     {
