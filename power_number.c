@@ -6,11 +6,11 @@ int main()
 scanf("%d",&a);
 printf("enter power:\n");
 scanf("%d",&b);
-int p = 1;
+int power = 1;
 for(int i=1;i<=b;i++)
 {
-    p=p*a;
+    power=power*a;
 }
-printf(" %d power %d is equal to :%d",a,b,p);
+printf(" %d power %d is equal to :%d",a,b,power);
 return 0;
 }
