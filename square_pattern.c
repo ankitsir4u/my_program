@@ -4,7 +4,7 @@ int main()
     int r,c;
     printf("enter row:\n");
     scanf("%d",&r);
-    printf("enter columnn:\n");
+    printf("enter column:\n");
     scanf("%d",&c);
     for(int i=1;i<=r;i++)
     {
