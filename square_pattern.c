@@ -6,11 +6,11 @@ int main()
     scanf("%d",&r);
     printf("enter column:\n");
     scanf("%d",&c);
-    for(int i=1;i<=r;i++)// it is for row line
+    for(int i=1;i<=r;i++)// it is for rows
     {
-        for (int j=1;j<=c;j++) //this is responsible for printing
+        for (int j=1;j<=i;j++) //this is responsible for printing
         {
-            printf("%d",i);
+            printf("*");
         }
 
     
