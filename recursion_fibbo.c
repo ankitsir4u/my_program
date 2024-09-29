@@ -9,5 +9,6 @@ int main() {
     int n;
     printf("enter number");
     scanf("%d",&n);
-    printf("%d",fibbo(n) );
+    int fibbonacci=(fibbo (n));
+    printf("%d",fibbonacci );
 }
